@@ -74,6 +74,14 @@
             HorizontalOptions="CenterAndExpand"
             />
 
+            <Button 
+                x:Name="GuideAbout"
+                Text=" Clica ai"
+                SemanticProperties.Hint="Te guia a uma nova página"
+                Clicked="GuideAbout_Clicked"
+                HorizontalOptions="Fill"
+            />
+
 
         </VerticalStackLayout>
     </ScrollView>

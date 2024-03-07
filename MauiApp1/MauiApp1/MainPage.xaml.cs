@@ -35,6 +35,12 @@
             SomaExibe.Text = $"A soma dos números digitaos é {soma}";
 
         }
+
+        private async void GuideAbout_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AboutPage());
+
+        }
     }
 }
 
