@@ -25,7 +25,7 @@
         {
             String name = NameEntry.Text;
         
-            if (NameEntry.Text == "") {
+            if (NameEntry.Text == null) {
                 
                 SaidaNome.Text = "Insira seu nome para continuar";
             }
