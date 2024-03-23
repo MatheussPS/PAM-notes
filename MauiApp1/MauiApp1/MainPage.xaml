@@ -35,6 +35,7 @@
             x:Name="NameEntry"
             MaxLength="30"
             Placeholder="Insira seu nome"
+                Keyboard="Text"
             />
 
             <Button
@@ -42,12 +43,15 @@
             Text="Clica aí" 
             SemanticProperties.Hint="Exibe nome inserido"
             Clicked="ExibirNomeClicked"
-            HorizontalOptions="Fill" />
+            HorizontalOptions="Fill" 
+            BackgroundColor="#00F" 
+            TextColor="#000"/>
 
             <Label
             x:Name="SaidaNome"
             HorizontalOptions="CenterAndExpand"
             />
+            
 
             <Entry 
             x:Name="FirstNumberEntry"

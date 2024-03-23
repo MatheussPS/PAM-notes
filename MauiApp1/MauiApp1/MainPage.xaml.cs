@@ -24,7 +24,16 @@
         private void ExibirNomeClicked(object sender, EventArgs e)
         {
             String name = NameEntry.Text;
-            SaidaNome.Text = $"Olá, {name}";
+        
+            if (NameEntry.Text == "") {
+                
+                SaidaNome.Text = "Insira seu nome para continuar";
+            }
+            else
+            {
+                SaidaNome.Text = $"Olá, {name}";
+            }
+            
         }
 
         private void ExibirSomaClicked(object sender, EventArgs e)
