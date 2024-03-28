@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.NotePage"
+             Title="NotePage">
+    <VerticalStackLayout>
+        <Editor
+            Placeholder="Inisra o nome do arquivo"
+            x:Name="NomeArquivoEditor"
+
+            PlaceholderColor="#FFF"
+            
+        />
+        <Button
+            Text= "Salvar"
+            Clicked="SaveButton_Clicked"
+            x:Name="SaveButton"    
+            
+        />
+        <Button
+            Text= "Deletar"
+            Clicked="DeleteButton_Clicked"
+            x:Name="DeleteButton"        
+        />
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

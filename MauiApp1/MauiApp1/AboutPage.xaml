@@ -6,11 +6,11 @@
     <VerticalStackLayout>
         <HorizontalStackLayout>
             <Image Source="miranha.webp">
-                
+
             </Image>
             <Label
                 Text="Bem vindo ao Sobre Página" />
+
         </HorizontalStackLayout>
-     
     </VerticalStackLayout>
 </ContentPage>
